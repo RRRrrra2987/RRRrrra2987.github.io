@@ -6,11 +6,9 @@ const nav = document.querySelector('nav');
 
 btn.addEventListener('click', () => {
     nav.classList.toggle('open-menu')
-  /* ↓ ここから追加 ↓ */
     if (btn.innerHTML === 'メニュー') {
     btn.innerHTML = '閉じる';
     } else {
     btn.innerHTML = 'メニュー';
     }
-  /* ↑ ここまで追加 ↑ */
 });
