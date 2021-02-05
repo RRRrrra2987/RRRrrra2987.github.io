@@ -1,0 +1,65 @@
+.info0001{
+    background-color:blue;
+    color: white;
+    border-color: blue;
+    border-radius:7px;
+    text-align: center;
+}
+
+.list{
+    text-decoration: none;
+    list-style-type:none;
+    border: groove 1ex #334EFF;
+    width: auto;
+    height: 2ex;
+    background-color: black;
+    color: white;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: red;
+}
+a{
+    text-decoration:solid;
+}
+nav {
+    background: black;
+    position: absolute;
+    z-index: 1;
+    top: 3.125rem;
+    right: 0;
+    overflow-x: hidden;
+    text-align: center;
+    width: 0; /* ←100%から 0 に変更 */
+    height: 0%;
+    transition: .5s;
+}
+nav.open-menu {
+    width: 50%;
+    height: 100%;
+}
+li {
+    margin: 2rem 0;
+}
+.btn-menu {
+    border: 1px solid #999;
+    background: transparent;
+    color: black;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    line-height: 1;
+}
+head {
+    background: #333;
+    padding: .10rem;
+    text-align: right;
+}
+button{
+    text-align: right;
+}
