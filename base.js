@@ -1,4 +1,5 @@
 var i=1
+var clickcount=0
 alert("(ﾟ∀ﾟ)ｱﾋｬ");
 alert("イェイ(ﾟ∀ﾟ)");
 const btn = document.querySelector('.btn-menu');
@@ -12,3 +13,8 @@ btn.addEventListener('click', () => {
     btn.innerHTML = 'メニュー';
     }
 });
+
+function click(){
+    clickcount=clickcount+1
+    alert(click+"回クリックしました！")
+}
