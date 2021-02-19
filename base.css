@@ -38,4 +38,7 @@ head {
     padding: .10rem;
     text-align: right;
 }
+#title{
+    font-size:2em;
+}
 
