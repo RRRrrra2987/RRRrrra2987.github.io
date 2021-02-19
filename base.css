@@ -1,6 +1,6 @@
 .info0001{
     background-color:blue;
-    color: white;
+    color:gray;
     border-color: blue;
     border-radius:7px;
     text-align: center;
@@ -9,18 +9,18 @@
 .list{
     text-decoration: none;
     list-style-type:none;
-    border: groove 1ex #334EFF;
+    border: groove 1ex black;
     width: auto;
     height: 2ex;
     background-color: white;
-    color: grey;
+    color: gray;
     display:inline;
 }
 a:link{
-    color: white;
+    color: gray;
 }
 a:visited{
-    color: white;
+    color: gray;
 }
 a:hover{
     color: lightblue;
