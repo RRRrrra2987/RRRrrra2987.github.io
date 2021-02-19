@@ -12,8 +12,8 @@
     border: groove 1ex #334EFF;
     width: auto;
     height: 2ex;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: grey;
     display:inline;
 }
 a:link{
@@ -23,7 +23,7 @@ a:visited{
     color: white;
 }
 a:hover{
-    color: red;
+    color: lightblue;
 }
 a{
     text-decoration:solid;
