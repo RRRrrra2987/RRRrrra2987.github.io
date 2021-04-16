@@ -1,0 +1,17 @@
+.title{
+    text-align: center;
+    border: double 3px blue;
+    background-color: aqua;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+a{
+    text-decoration: solid;
+}
