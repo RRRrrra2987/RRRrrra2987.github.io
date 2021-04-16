@@ -1,0 +1,85 @@
+.title{
+    background-color: aqua;
+    border-radius: 7px blue;
+    border:double 3px blue ;
+    text-align: center;
+}
+div #text1 {  
+    
+    position: fixed ;    
+    top: 0;  
+    left: 0;  
+    width: 100%;  
+    height: 10%;  
+}
+footer{
+    position:fixed;
+    bottom: 0;
+    right: 0;
+}
+.info0001{
+    background-color:blue;
+    color:gray;
+    border-color: blue;
+    border-radius:7px;
+    text-align: center;
+}
+
+.list{
+    text-decoration: none;
+    list-style-type:none;
+    border: groove 3px black;
+    background-color: aliceblue;
+    color: black;
+    padding:0;
+    margin: 0;
+    display: inline;
+    font-size: 1em;
+    transition: 0.5s;
+}
+.list:hover{
+    text-decoration: none;
+    list-style-type:none;
+    border: groove 3px black;
+    background-color: aliceblue;
+
+    padding:0;
+    margin: 0;
+    display: inline;
+    font-size: 1.5em;
+    transition: 0.5s;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+a{
+    text-decoration:solid;
+}
+
+
+
+head {
+    background: red;
+    padding: .10rem;
+    text-align: right;
+}
+.animation1:hover{
+    text-align: center;
+    font-size: 5em;
+    transition: 1s;
+    background-color: red;
+    color: aqua;
+}
+.animation1{
+    text-align: center;
+    font-size: 1em;
+    transition: 1s;
+    background-color: blue;
+    color: white;
+}
