@@ -1,0 +1,41 @@
+.title{
+    background-color: aqua;
+    border: double 3px blue;
+    text-align: center;
+}
+.profiles a:link{
+    color: black;
+}
+.profiles a:visited{
+    color: black;
+}
+.profiles a:hover{
+    color: black;
+}
+.profiles a{
+    text-decoration: solid;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color:red;
+}
+a{
+    text-decoration: solid;
+}
+.animation{
+    color: red;
+    text-align: center;
+    font-size: 1em;
+    transition: 1s;
+}
+.animation:hover{
+    color: red;
+    font-size: 5em;
+    text-align: center;
+    transition: 2s;
+}
