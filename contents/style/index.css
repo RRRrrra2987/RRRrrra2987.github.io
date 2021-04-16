@@ -1,0 +1,37 @@
+#title{
+    border:double 3px blue;
+    background-color: aqua;
+}
+.HELP{
+    border-radius: 7px black;
+    background-color: black;
+    color: white;
+    font-size:1em ;
+    transition: 1s;
+    display: inline;
+}
+.HELP:hover{
+    border-radius: 7px black;
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    transition: 1s;
+    display: inline;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+a{
+    text-decoration: solid;
+}
+footer{
+    position:fixed;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,44 @@
+#title{
+    background-color: aqua;
+    border: double 3px blue;
+}
+.right{
+    text-align: right;
+}
+.red{
+    color: red;
+}
+.question{
+    font-size: 1.5em;
+    border: double 3px aqua;
+    display: inline;
+}
+.mark{
+    background-color: yellow;
+    color: red;
+}
+
+.sample{
+    font-size: 1.5em;
+}
+.point{
+    border: double 3px aqua;
+    text-align: center;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+a{
+    text-decoration: solid;
+}
+footer{
+    position:fixed;
+    bottom: 0;
+    right: 0;
+}
